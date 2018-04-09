@@ -1,0 +1,41 @@
+if (btn.equals("Area calculations."))
+{
+	float areas
+	String areachoice = JOptionPane.showInputDialog("Please enter one of the following numbers \n\n enter \"1\" for area of square \n enter \"2\" for area of circle \n enter \"3\"" 
+	+ "for area of rectangle");
+  	areas = Float.parseFloat(areachoice);
+
+	switch(areas)	
+{
+	case '1':
+		String totalSquare, areaSqaureS;
+  		float areas, areaSqaure;
+	
+		areaSqaureS = JOptionPane.showInputDialog("Please enter one of the sides of the square. ");
+		areaSqaure = Float.parseFloat(areaSqaureS);
+
+		float sqaurecalc = (areaSqaure * 4);
+		totalSqaure = JOptionPane.showMessageDialog(null,"The total area of the square is " + sqaurecalc,"",JOptionPane.INFORMATION_DIALOG);
+		break;
+	case '2':
+		String areaCircleS
+		float areaCircle
+
+		areaSqaureS = JOptionPane.showInputDialog("Please enter the radius of the circle ");
+		areaCircle = Float.parse.Float(areaCircleS);
+
+		float circlecalc = ( 3.14f * areaCircle * areaCircle);
+		totalCircle = JOptionPane.showMessageDialog(null,"The total area of the circle is " + circlecalc,"",JOptionPane.INFORMATION_DIALOG);
+		break:
+	case '3':
+		String areaRectanglelengths, areaRectanglewidths, totalRectangle
+		float areaRectanglelength, areaRectanglewidths
+
+		areaRectanglelengths = JOptionPane.showInputDialog("Please enter the rectangle length");
+		areaRectanglelength = Float.parseFloat(areaRectanglelengths);
+
+		areaRectanglewidths = JOptionPane.showInputDialog("Please enter the rectangle width");
+		areaRectanglewidth = Float.parseFloat(areaRectanglewidths);
+
+		float Rectanglecalc = ( areaRectanglelength * areaRectanglewidth);
+		totalRectangle = JOptionPane.showMessageDialog("The total area of the rectangle is " + Rectangcalc,"",JOptionPane.INFORMATION_DIALOG);
